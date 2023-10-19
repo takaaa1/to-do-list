@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-container">
+        <h1>
+          Lista de Tarefas
+          <img src="./assets/images/todo-img.png" alt="todo-img" />
+        </h1>
+
+        <div class="todo-input">
+          <input
+            id="input-text"
+            type="text"
+            placeholder="Escreva sua tarefa ..."
+          />
+          <button onclick="add()">Add</button>
+        </div>
+
+        <div>
+          <ul id="list-container">
+            <!-- <li class="checked">Tarefa 1</li>
+            <li>Tarefa 2</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
